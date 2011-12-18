@@ -25,7 +25,7 @@ public class Drive extends RobotTemplate {
     //Channel on module to controll is first param, must check
     Solenoid pistonLeft = new Solenoid (1);
     Solenoid pistonRight = new Solenoid (2);
-    //Joystick deadzones for X neg and ps and Y neg and pos
+    //Joystick deadzones for X neg and pos and Y neg and pos
     double MIN_NEG_X = -.15;
     double MAX_NEG_X = -1.00;
     double MIN_POS_X = .15;
